@@ -1,0 +1,623 @@
+body {
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Start Section Theme Color */
+
+.theme-color {
+    position: fixed;
+    z-index: 8888;
+    left: 0;
+    top: 100px; 
+    overflow: hidden
+}
+
+.theme-color ul {
+    
+    background-color: #fff;
+    padding: 10px;
+    display: none;
+}
+
+.theme-color li {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.theme-color i {
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+/* End Section Theme Color */
+
+/* Start Section Scroll Top */
+
+#scroll-top {
+    position: fixed;
+    padding: 2px;
+    bottom: 10px;
+    right: 15px;
+    z-index: 9998;
+    cursor: pointer;
+    border-radius: 50%;
+    display: none;
+     
+}
+
+#scroll-top i {
+    cursor: pointer;
+}
+
+/* End Section Scroll Top */
+
+/* Brand */
+
+.navbar {
+    padding: 0 15px;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 30px;
+    font-family: 'Shadows Into Light Two', cursive;
+    padding: 5px 10px;
+    border-radius: 5px 
+}
+
+.navbar-light .navbar-brand:hover {
+    transition: all 1.1s ease-in-out;
+    transform: rotateY(360deg);
+}
+
+/* Active Link */
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active
+{
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Links */
+
+.navbar-light .navbar-nav .nav-link {
+    margin-left: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+    transition: all .3s ease-in-out;  
+}
+
+/* Dropdown */
+
+.dropdown-menu {
+    background: #343A40;
+    color: #fff
+}
+
+.dropdown-item {
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #fff;
+    padding-left: 30px;
+    transition: all .3s ease-in-out;       
+}
+
+/* Search Button */
+
+
+
+.btn-outline-success:hover {
+    transition: all .4s ease-in-out;
+}
+
+/* Start Slider */
+
+.page .carousel {
+    margin-top: 55px;
+}
+
+.page .carousel-inner {
+    height: 300px     
+}
+
+.page .carousel-item { 
+    height: 100%;
+}
+
+.page .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    border-radius: 15px;
+}
+
+.page .carousel-indicators li.active {
+    height: 17px;
+    width: 17px;
+    border-radius: 17px; 
+}
+
+/* End Slider */
+
+/* Start Section About */
+
+.about{
+    padding: 20px;
+}
+
+.about .container {
+     border-bottom: 1px solid #343A40;
+}
+
+.about h1 {
+    margin: 10px 10px 30px;
+}
+
+.about h1 span {
+    font-size: 45px;
+}
+
+/* End Section About */
+
+/* Start Section Fans */
+
+.fans {
+    width: 100%;
+    height: 400px;
+}
+
+.fans .container {
+    width: 74%;
+    padding: 1% 13%;
+    height: 98%;
+}
+
+@media(max-width: 767px) {
+    
+    .fans .container {
+    width: 100%;
+    padding: 0 10px;
+    height: 100%;
+}
+    
+}
+
+/* End Section Fans */
+
+/* Start Section Football */
+
+
+.football{
+    background-color: #e5e5e5;
+    padding: 30px;
+    color: #343A40;
+}
+
+.football h1 {
+    
+    margin:20px 30px 50px;
+    font-size: 50px;
+}
+
+.football h3 {
+    margin-bottom: 20px;
+}
+
+.football .row img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 2px solid #343A40;
+}
+
+/* End Section Football */
+
+/* Start Section Testimonials */
+
+.testimonials {
+    padding: 50px;
+}
+
+.testimonials h1 {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.testimonials .lead {
+    line-height: 2em;
+}
+
+.testimonials .carousel-inner {
+    min-height: 380px;
+    background-color: #44729a;
+    color: #fff;
+    padding: 25px;
+}
+
+.testimonials .carousel-indicators {
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    padding-top: 20px;
+}
+
+.testimonials .carousel-indicators li {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    text-indent: 0;
+    opacity: .4;
+    overflow: hidden;
+    border: 3px solid #fff;
+    margin: 5px;
+    -webkit-transition: all .5s ease ;
+    -moz-transition: all .5s ease ;
+    -o-transition: all .5s ease ;
+    transition: all .5s ease ;
+    
+}
+
+.testimonials .carousel-indicators li.active {
+    opacity: 1;
+    background: none;
+    
+}
+
+.testimonials .carousel-indicators li img {
+    max-width: 100%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    
+}
+
+/* End Section Testimonials */
+
+/* Start Section Tickets */
+
+.tickets {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #596877;
+}
+
+.tickets h1 {
+    color: #fff;
+}
+
+.tickets .stad-img {
+    margin: 20px auto;
+}
+
+.tickets .stad-img img {
+    
+    width: 70%;
+    height: 300px;
+        
+}
+
+.tickets .container .price {
+    
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 15px;
+    color: #343A40;
+}
+
+.tickets .container .price p {
+    font-size: 25px;
+    background-color: #E5E5E5;
+    border-radius: 50%
+}
+
+.tickets .container .price ul {
+    line-height: 250%;
+    font-size: 18px
+}
+
+/* End Section Tickets */
+
+/* Start Section Champions*/
+
+.presidents {
+    background: url(../images/Presidents/IMG_20151207_135328.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 300px;
+    color: #fff;
+}
+
+.presidents .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+     min-height: 300px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.presidents h1 {
+    margin-bottom: 60px;
+    font-size: 60px;
+}
+
+.presidents .person {
+    margin-bottom: 50px;   
+}
+
+.presidents .person img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    border: 3px solid #fff;
+    transition: all .3s ease-in-out;
+    
+}
+
+.presidents .person h4 {
+    color: #c4c1c1;
+}
+
+/* End Section Champions*/
+
+/* Start Section Cahmpionship */
+
+.championship {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    background-color: #E5E5E5;
+}
+
+.championship h1 {
+   
+    font-size: 50px;
+}
+
+.championship span {
+    font-size: 20px;
+     margin-bottom: 50px;
+    display: block;
+}
+
+.championship .progress {
+    height: 30px;
+    margin-bottom: 5px;
+    background-color: transparent;
+}
+
+.championship .progress p{
+     color: #fff;
+    font-size: 20px;
+    margin-left: 5px
+}
+
+/* End Section Cahmpionship */
+
+/* Start Section Contact Us */
+
+.contact-us {
+    background: url(../images/FB_IMG_1461120255881.jpg) no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+   
+}
+
+.contact-us .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+     padding-top: 50px;
+    padding-bottom: 50px
+}
+
+.contact-us p {
+    margin-bottom: 50px
+}
+
+/*
+
+.contact-us input[type="text"],
+.contact-us textarea {
+    
+     background: rgba(52, 58, 64, 0.82); 
+     color: #fff; 
+     border: none; 
+}
+
+*/
+
+.contact-us textarea {
+    height: 113px;
+}
+
+/* End Section Contact Us */
+
+/* Start Section Subscribe */
+
+.subscribe {
+    padding-top: 80px;
+    padding-bottom: 80px; 
+    background: #44729a;
+    color: #fff;
+    font-size: 25px;
+}
+
+.subscribe h1 {
+    font-size: 60px;
+    
+}
+
+.subscribe p {
+    margin-bottom: 40px
+}
+
+.subscribe .form-inline {
+    display: block;
+}
+
+/* End Section Subscribe */
+
+/* Start Section The Best */
+
+.the-best {
+     background: url(../images/IMG_20171024_195611.jpg) no-repeat ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+}
+
+.the-best .overlay {
+     background-color: rgba(0, 0, 0, 0.5);
+     padding-top: 50px;
+    padding-bottom: 50px
+    
+}
+
+.the-best p {
+    font-size: 50px;
+    font-family: 'Lalezar', cursive;
+}
+
+/* End Section The Best */
+
+/* Start Section Footer */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #343A40;
+    color: #fff;
+}
+
+.footer span {
+    font-size: 18px;
+    
+}
+
+.footer .three-columns {
+    overflow: hidden;
+   
+}
+
+.footer .three-columns li {
+    width: 33.3333%;
+    float: left;
+    padding: 5px 0;
+}
+
+.footer hr {
+    border-top: 1px solid #fff;
+}
+
+.footer img {
+    height: 260px
+}
+
+.footer .ahmad {
+    background-color: #2C3034;
+    color: #DDDEDE;
+    margin-top: 10px;
+    padding-top: 15px
+}
+
+/* End Section Footer */
+
+/* Start Section Loading */
+
+.loading {
+    background-color: #343A40;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    
+}
+
+.loading .spinner {
+  width: 100px;
+  height: 150px;
+  position: relative;
+  margin: 230px auto;
+}
+
+.loading .double-bounce1, .double-bounce2 {
+
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.loading .double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+/* End Section Loading */
+
+
+.btn-danger:hover {
+    opacity: .8
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

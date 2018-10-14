@@ -1,0 +1,52 @@
+@media(max-width: 768px) {
+    
+    
+    
+    h1 {
+        font-size: 40px
+    }
+    
+    .page li {
+        display: none
+    }
+    
+    .page .carousel-inner {
+        height: 150px
+    }
+  
+    
+}
+
+@media(max-width: 991px) {
+    
+    .theme-color {
+    z-index: 9999;
+    left: 150px;
+    top: 10px;
+    }
+    
+    .theme-color ul {
+    
+    background-color: #fff;
+    padding: 5px;
+}
+    
+    .theme-color li {
+    width: 15px;
+    height: 15px;
+        border-radius: 50%;
+    cursor: pointer;
+    margin-right: 5px;
+    display: inline-block;
+}
+    
+    .theme-color i {
+        font-size: 30px;
+        margin-top: 2px;
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        color: #D83D3D;
+    }
+    
+}
